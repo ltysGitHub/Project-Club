@@ -1,0 +1,108 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" type="text/css" href="style/member_sheet.css" />
+        <script type="text/javascript" src="script/main.js"></script>
+    
+        <title>个人主页</title>
+    </head>
+    <body>
+        <div id="container">
+            <div id="banner">
+                <div id="banner_img">
+                	<img src="image/Club.png" />
+                </div>
+            	<div id="banner_txt">
+            	    Club 名称
+            	</div>
+            	<div id="banner_nav">
+            		<ul>
+            			<li><a href="#home">首页</a></li>
+                        <li><a href="#article">文章</a></li>
+                        <li><a href="#talk">热点讨论</a></li>
+            		</ul>
+            	</div>
+            </div>
+
+            <div id="left">
+            	<div id="left_txt">
+            		用户中心
+            	</div>
+            	<a href="#" id="left_home">主页</a>
+            	<a href="#" id="left_hide" onclick="Display('left_nav1')">发表•管理</a>
+            	<div id="left_nav1" style="display: none;">
+            		<ul>
+            			<li style="border-top: 1px solid #DDDDDD;"><a href="#">发表文章</a></li>
+                        <li><a href="#">发起讨论</a></li>
+                        <li style="border-bottom: 1px solid #DDDDDD;"><a href="#">管理</a></li>
+            		</ul>
+            	</div>
+            	<div id="left_nav2">
+            		<ul>
+            			<li><a href="#club">Club</a></li>
+                        <li><a href="#">用户组</a></li>
+                        <li><a href="#">收藏夹</a></li>
+                        <li><a href="#">关注</a></li>
+                        <li><a href="#">信息中心</a></li>
+            		</ul>
+            	</div>
+            </div>
+
+            <div id="content">
+            	<div class="box_title">
+            		我的信息
+            	</div>
+            	<div id="content_profile" style="border-bottom: 1px solid #DDDDDD;">
+            		<img src="image/userImg.png">
+            		<div id="content_profile_information">
+            			<div id="profile_information_name">
+            				刘义盟
+            			</div>
+            			<button id="usergroup"> #用户组#</button><br />
+            			<button id="change"> 修改个人信息</button>
+            		</div>
+            		<div id="content_box">           		
+            			<div id="box1">
+            				<div class="box1_profile" style="border-right: 1px solid #DDDDDD">
+            					<p><a href="#"> 我的收藏</a></p>
+            					<p class="blue1"> 10</p>
+            				</div>
+            				<div class="box1_profile" style="border-right: 1px solid #DDDDDD">
+            					<p><a href="#"> 我的关注</a></p>
+            					<p class="blue1"> 10</p>
+            				</div>
+            				<div class="box1_profile" style="border-right: 1px solid #DDDDDD">
+            					<p><a href="#"> 我的Club</a></p>
+            					<p class="blue1"> 10</p>
+            				</div>
+            				<div class="box1_profile">
+            					<p><a href="#"> 我的信息</a></p>
+            					<p class="blue1"> 10</p>
+            				</div>
+            			</div>
+            			<div id="box2">
+            				<div class="box2_profile" style="border-right: 1px solid #DDDDDD">
+            					<span style="float:left;"><a href="#"> 我的文章</a></span>
+            					<span class="blue2"> 10</span>
+            				</div>
+            				<div class="box2_profile">
+            					<span style="float:left;"><a href="#"> 我的讨论</a></span>
+            					<span class="blue2"> 10</span>
+            				</div>
+            			</div>
+            		</div>
+            	</div>
+            	<div class="box_title">
+            		我的动态
+            	</div>
+            	<div>
+            		<br />
+            	</div>
+            </div>
+
+    	
+        </div>
+
+    </body>
+</html>

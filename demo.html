@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>kong</title>
+</head>
+<body>
+	<button id="button" onclick="myWin()">开始</button>
+	<button id="button" onclick="stopWin()">结束</button>
+
+	<script type="text/javascript">
+	var win;
+	function myWin () {
+		alert("Hello");
+		win = setTimeout(function(){
+			myWin();
+		}, 3000);
+	}
+	function stopWin () {
+		clearTimeout(win);
+	}
+	</script>
+</body>
+</html>
